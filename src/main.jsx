@@ -2,7 +2,7 @@ import { createRoot } from 'react-dom/client'
 import './styles.css'
 import { App } from './App.jsx'
 
-const pexel = (id) => `../${id}.jpg`
+const pexel = (id) => `./${id}.jpg`
 
 const matchResult = window.matchMedia("(max-width: 1400px)");
 
